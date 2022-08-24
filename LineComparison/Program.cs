@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome To LIne Comparison Program");
+            lineComparision lineComparison = new lineComparision(1, 2, 3, 4);
+            Console.WriteLine(lineComparison);
         }
     }
 }
